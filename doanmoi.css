@@ -1,0 +1,269 @@
+body{
+    margin: 0;
+    background-color:hsl(0, 0%, 90%)
+}
+.container{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: hsl(0, 0%, 70%)
+}
+
+.container button{
+    text-decoration: none;
+    color:black;
+    margin:5px;
+    cursor: pointer;
+    padding: 20px;
+    background-color: hsl(0, 0%, 50%);
+    border-radius: 100px;
+    border: 3px solid white;
+    font-weight: bold;
+}
+.container button:hover{
+    transform: translate(10%,0);
+    background-color: hsl(0, 0%, 40%);
+}
+.container button:active{
+    transform: scale(105%,105%);
+    background-color: hsl(0, 0%, 20%);
+}
+
+
+#homepage #trangthai{
+    
+    padding:5px;
+    width: 75rem;
+    border:3px solid hsl(39, 77%, 22%);
+    height: 2.5rem;
+    margin-bottom: 0;
+}
+
+
+#homepage #h3trangthai{
+    margin:0;
+    padding:5px;
+    width: 14rem;
+    border:3px solid hsl(39, 77%, 22%);
+    height: 2.5rem;
+    
+    animation: trangthai 1s;
+}
+@keyframes trangthai {
+    from{
+        transform: translateY(-100%);
+    }
+}
+#kiemtra{
+    margin-top: 5rem;
+    transform: translate(12%);
+    border:3px solid;
+    width: 80%;
+    height: 25rem;
+}
+#kiemtra h1{
+    text-align: center;
+}
+#kiemtra label{
+    margin-left:5rem;
+    font-size: 2rem;
+}
+#kiemtra #tenkiemtra{
+    width: 25.8rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    margin-left:1.2rem
+}
+#kiemtra button{
+    margin-left: 16rem;
+    margin-top: 2rem;
+    padding:15px;
+    border-radius: 1rem;
+    border:0;
+    color:white;
+    font-weight: bold;
+    background: linear-gradient(45deg,red,blue);
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+#kiemtra button:active{
+    background: linear-gradient(45deg,rgb(184, 0, 0),rgb(0, 0, 156));
+}
+
+#ngaykiemtra{
+    width: 26rem;
+    height: 2rem;
+    font-size: 1.5rem;
+}
+
+#kiemtra #chuahinh{
+    display:none;
+    padding:0;
+    position: absolute;
+    top:30%;
+    left:60%;
+}
+
+
+
+
+
+#add{
+    width: 550px;
+    height: 600px;
+    position: absolute;
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-60%);
+    background-color: hsl(0, 0%, 70%);
+    font-size: 20px;
+    display:none;
+
+}
+
+#add h1{
+    text-align: center;
+    color: black;
+}
+#add .toanbo{
+    width: 500px;
+    height: 500px;
+    margin-left: 25px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#add .toanbo div{
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+#add .toanbo .line1 label{
+    margin-right: 60px
+}
+#add .toanbo .line2 input, .add .toanbo .line3 input,.add .toanbo .line4 input{
+    width: 80%;
+    padding:10px;
+    font-size: 15px;
+}
+#add .toanbo .line3 input{
+    margin-left: 13px;
+}
+
+#add .toanbo .line5{
+    text-align: center;
+}
+#add .toanbo #cuabutton{
+    text-align: center;
+}
+#add .toanbo  button{
+    padding: 12px;
+    width: 100%;
+    border-radius: 25px;
+    cursor: pointer;
+}
+#add .toanbo button:hover{
+    transform: scale(105%,105%);
+    background-color: hsl(0, 0%, 90%);
+}
+#add .toanbo button:active{
+    background-color: hsl(0, 0%, 80%);
+    transform: scale(105%,125%);
+}
+#add #email{
+    width: 83%;
+    height: 140%;
+}
+#add #age{
+    width: 10%;
+    height: 140%;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+#line{
+    display: none;
+}
+.line1 h2{
+    background-color: hsl(0, 0%, 60%);
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.line1 h2 button{
+    margin:0;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 40%);
+    border: 0;
+    height: 45px;
+    width: 50px;
+    margin-right: 25px;
+
+}
+.line1 p{
+    margin-left: 50px;
+    background-color: hsl(0, 0%, 65%);
+    padding: 15px;
+    margin-top:0;
+    display:none;
+    position: absolute;
+    box-shadow: 5px 5px 5px;
+    width: 94.75%;
+}
+
+
+.line2 h2{
+    background-color: hsl(0, 0%, 60%);
+    font-size: 35px;
+    margin-bottom: 0;
+    
+}
+.line2 h2 button{
+    margin:0;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 40%);
+    border: 0;
+    height: 45px;
+    width: 50px;
+    margin-right: 25px;
+
+}
+
+.line2 #howtonho1 {
+    margin-left: 50px;
+    background-color: hsl(0, 0%, 65%);
+    padding: 15px;
+    margin-top:0;
+    width: 94.75%;
+    margin-bottom: 0;
+    border-bottom: 2px solid;
+}
+.line2 #howtonho2{
+    margin-left: 50px;
+    background-color: hsl(0, 0%, 65%);
+    padding: 15px;
+    margin-top:0;
+    width: 94.75%;
+    border-bottom: 2px solid;
+    margin-bottom: 0;
+}
+.line2 #howtonho3{
+    
+    margin-left: 50px;
+    background-color: hsl(0, 0%, 65%);
+    padding: 15px;
+    margin-top:0;
+    width: 94.75%;
+    border-bottom: 2px solid;
+}
+.line2 #howtonho{
+    display:none
+}
+
